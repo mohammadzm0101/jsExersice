@@ -9,11 +9,11 @@
 // console.log(perInformation(prompt('please entet your first name'),prompt('please entery your birth province'),prompt('please enter your postal code')))
 const address = addressA('hii', 'heee', 'heere');
 const address1 = addressA('hii', 'hoooy', 'heee');
-function addressA(aa, bb, cc) {
+function addressA(aa, bb, cccc) {
     return {
         a : aa,
         b : bb,
-        c : cc
+        c : cccc
     }   
 }
 console.log(address);
