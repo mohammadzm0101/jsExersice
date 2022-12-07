@@ -1,0 +1,4 @@
+check folders form new project...> frontend folder.
+html & css  ... > create & test
+
+test spead & size ...> web sience folder.
