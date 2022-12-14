@@ -8,7 +8,7 @@
 // }
 // console.log(perInformation(prompt('please entet your first name'),prompt('please entery your birth province'),prompt('please enter your postal code')))
 const address = addressA('hii', 'hoooy', 'heere');
-const address1 = addressA('hiei', 'hoooy', 'heere');
+const address1 = addressA('hii', 'hoooy', 'heere');
 function addressA(aa, bb, cc) {
     return {
         a: aa,
@@ -20,16 +20,15 @@ console.log(address);
 console.log(address1);
 function compare(address, address1) {
     let comparson = JSON.stringify(address) === JSON.stringify(address1);
-    let noting = 'dont be compeletly same got step 2';
     if (comparson === true) {
-        return comparson;
+        return 'yeh';
     }else {
-      return noting
+      return 'no'
     }
 };
 console.log(compare(address, address1));
-function deepCompare(params) {
-    for (let i = 0; i < address.length; i++) {
-         array[i]; 
-    }
+function deepCompare(address, address1) {
+   const keys1 = Object.keys(address);
+   return keys1
 };
+console.log(deepCompare(address, address1));
