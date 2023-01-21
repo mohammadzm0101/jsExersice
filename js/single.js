@@ -51,4 +51,24 @@
 // }
 // console.log(deepCompare(address, address1));
 // next example
-
+// let post = {
+//     title : "i dont know",
+//     text : "empty",
+//     viwes : 10000000000000000000000000000000,
+//     Comment : [
+//         {custumer: 'i hate you', author: 'but i love you'},
+//         {custumer: 'i hate you', author: 'but i love you'}
+//     ],
+//       isLive : true,
+// }
+// function ConstructorF (title, text, viwes, isLive) {
+//       this.title = title,
+//       this.text = text,
+//       this.viwes = viwes,
+//       this.isLive = isLive
+// }
+// let post2 = new ConstructorF('ok', 'yeh')
+// console.log(post2);
+function a(a = 0, b =  1) {
+    console.log(`${ }`)
+}
