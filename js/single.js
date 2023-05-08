@@ -17,8 +17,6 @@
 //         c: cc
 //     }
 // }
-
-
 // function compare(address, address1) {
 //     let comparson = JSON.stringify(address) === JSON.stringify(address1);
 //     if (comparson === true) {
@@ -69,6 +67,30 @@
 // }
 // let post2 = new ConstructorF('ok', 'yeh')
 // console.log(post2);
-function a(a = 0, b =  1) {
-    console.log(`${ }`)
-}
+// function sum(arg1 = 2, ...arg2) {
+//     // Array.isArray(arg2) 
+//     let arg3 = arg2.join()
+//     let arg4 = arg3.split(',')
+//     arg6 = ['1', '2', '3'];
+//     let arg5 = arg4.map(function (str) {
+//         return parseInt(str);
+//     })
+//     let total = 0;
+//     return arg5.reduce((a, b) => a + b, 0)
+// }
+// console.log(sum(20, [5, 10, 15, 12]));
+function radius() {
+let x = prompt('hi plz select radius \n just number tnx ');
+     let y;
+     if(x == isNaN){
+        y = 'plz refresh page & write number';
+     }else{
+
+          function train(pi, r) {  
+               let cArea = pi * (r ** 2);
+               return cArea; 
+          }
+          console.log(train(Math.PI, x));  
+     }
+} 
+console.log(radius())
