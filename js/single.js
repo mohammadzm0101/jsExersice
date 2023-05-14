@@ -80,17 +80,17 @@
 // }
 // console.log(sum(20, [5, 10, 15, 12]));
 function radius() {
-let x = prompt('hi plz select radius \n just number tnx ');
+     let x = prompt('hi plz select radius \n just number tnx ');
      let y;
-     if(x == isNaN){
-        y = 'plz refresh page & write number';
-     }else{
+     if (x == isNaN) {
+          y = 'plz refresh page & write number';
+     } else {
 
-          function train(pi, r) {  
+          function train(pi, r) {
                let cArea = pi * (r ** 2);
-               return cArea; 
+               return cArea;
           }
-          console.log(train(Math.PI, x));  
+          console.log(train(Math.PI, x));
      }
-} 
+}
 console.log(radius())
